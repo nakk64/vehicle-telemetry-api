@@ -1,0 +1,28 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# Binaries
+kubectl
+helm
+kind
+docker-compose
+docker
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Kubernetes
+kubeconfig
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
